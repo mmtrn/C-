@@ -1,0 +1,50 @@
+c:\users\ahmet\documents\visual studio 2010\Projects\ChatApplication\Client\obj\x86\Debug\Client.Form1.resources
+c:\users\ahmet\documents\visual studio 2010\Projects\ChatApplication\Client\obj\x86\Debug\Client.Properties.Resources.resources
+c:\users\ahmet\documents\visual studio 2010\Projects\ChatApplication\Client\obj\x86\Debug\Client.csproj.GenerateResource.Cache
+c:\users\ahmet\documents\visual studio 2010\Projects\ChatApplication\Client\bin\Debug\Client.exe
+c:\users\ahmet\documents\visual studio 2010\Projects\ChatApplication\Client\bin\Debug\Client.pdb
+c:\users\ahmet\documents\visual studio 2010\Projects\ChatApplication\Client\bin\Debug\RemoteObject.dll
+c:\users\ahmet\documents\visual studio 2010\Projects\ChatApplication\Client\bin\Debug\RemoteObject.pdb
+c:\users\ahmet\documents\visual studio 2010\Projects\ChatApplication\Client\obj\x86\Debug\Client.exe
+c:\users\ahmet\documents\visual studio 2010\Projects\ChatApplication\Client\obj\x86\Debug\Client.pdb
+C:\Users\krep\Documents\Visual Studio 2012\Projects\ChatApplication\Client\bin\Debug\Client.exe
+C:\Users\krep\Documents\Visual Studio 2012\Projects\ChatApplication\Client\bin\Debug\Client.pdb
+C:\Users\krep\Documents\Visual Studio 2012\Projects\ChatApplication\Client\bin\Debug\RemoteObject.dll
+C:\Users\krep\Documents\Visual Studio 2012\Projects\ChatApplication\Client\bin\Debug\RemoteObject.pdb
+C:\Users\krep\Documents\Visual Studio 2012\Projects\ChatApplication\Client\obj\x86\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\krep\Documents\Visual Studio 2012\Projects\ChatApplication\Client\obj\x86\Debug\Client.Form1.resources
+C:\Users\krep\Documents\Visual Studio 2012\Projects\ChatApplication\Client\obj\x86\Debug\Client.Properties.Resources.resources
+C:\Users\krep\Documents\Visual Studio 2012\Projects\ChatApplication\Client\obj\x86\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\krep\Documents\Visual Studio 2012\Projects\ChatApplication\Client\obj\x86\Debug\Client.exe
+C:\Users\krep\Documents\Visual Studio 2012\Projects\ChatApplication\Client\obj\x86\Debug\Client.pdb
+C:\Users\krep\Documents\Visual Studio 2010\Projects\ChatApplication\Client\obj\x86\Debug\Client.exe
+C:\Users\krep\Documents\Visual Studio 2010\Projects\ChatApplication\Client\obj\x86\Debug\Client.pdb
+C:\Users\krep\Documents\Visual Studio 2010\Projects\ChatApplication\Client\obj\x86\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\krep\Documents\Visual Studio 2010\Projects\ChatApplication\Client\obj\x86\Debug\Client.Form1.resources
+C:\Users\krep\Documents\Visual Studio 2010\Projects\ChatApplication\Client\obj\x86\Debug\Client.Properties.Resources.resources
+C:\Users\krep\Documents\Visual Studio 2010\Projects\ChatApplication\Client\obj\x86\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\krep\Documents\Visual Studio 2010\Projects\ChatApplication\Client\bin\Debug\Client.exe
+C:\Users\krep\Documents\Visual Studio 2010\Projects\ChatApplication\Client\bin\Debug\Client.pdb
+C:\Users\krep\Documents\Visual Studio 2010\Projects\ChatApplication\Client\bin\Debug\RemoteObject.dll
+C:\Users\krep\Documents\Visual Studio 2010\Projects\ChatApplication\Client\bin\Debug\RemoteObject.pdb
+C:\Users\serdar\Downloads\Compressed\ChatApplication\ChatApplication\Client\obj\x86\Debug\Client.exe
+C:\Users\serdar\Downloads\Compressed\ChatApplication\ChatApplication\Client\obj\x86\Debug\Client.pdb
+C:\Users\serdar\Downloads\Compressed\ChatApplication\ChatApplication\Client\bin\Debug\Client.exe
+C:\Users\serdar\Downloads\Compressed\ChatApplication\ChatApplication\Client\bin\Debug\Client.pdb
+C:\Users\serdar\Downloads\Compressed\ChatApplication\ChatApplication\Client\bin\Debug\RemoteObject.dll
+C:\Users\serdar\Downloads\Compressed\ChatApplication\ChatApplication\Client\bin\Debug\RemoteObject.pdb
+C:\Users\serdar\Downloads\Compressed\ChatApplication\ChatApplication\Client\obj\x86\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\serdar\Downloads\Compressed\ChatApplication\ChatApplication\Client\obj\x86\Debug\Client.Form1.resources
+C:\Users\serdar\Downloads\Compressed\ChatApplication\ChatApplication\Client\obj\x86\Debug\Client.Properties.Resources.resources
+C:\Users\serdar\Downloads\Compressed\ChatApplication\ChatApplication\Client\obj\x86\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\serdar\Desktop\ChatApplication\Client\obj\x86\Debug\Client.exe
+C:\Users\serdar\Desktop\ChatApplication\Client\obj\x86\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\serdar\Desktop\ChatApplication\Client\obj\x86\Debug\Client.Form1.resources
+C:\Users\serdar\Desktop\ChatApplication\Client\obj\x86\Debug\Client.Properties.Resources.resources
+C:\Users\serdar\Desktop\ChatApplication\Client\obj\x86\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\serdar\Desktop\ChatApplication\Client\bin\Debug\Client.exe
+C:\Users\serdar\Desktop\ChatApplication\Client\bin\Debug\Client.pdb
+C:\Users\serdar\Desktop\ChatApplication\Client\bin\Debug\RemoteObject.dll
+C:\Users\serdar\Desktop\ChatApplication\Client\bin\Debug\RemoteObject.pdb
+C:\Users\serdar\Desktop\ChatApplication\Client\obj\x86\Debug\Client.pdb
+C:\Users\mmtrn\Desktop\Bitirme Tezi\201313172050 Mehmet Turan\Client\obj\x86\Debug\Client.exe
