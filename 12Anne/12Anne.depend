@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1454236175 source:c:\users\mmtrn\documents\adnanmernderes\12anne\main.cpp
+	<iostream>
+	"anne.h"
+	"baba.h"
+
+1454243854 c:\users\mmtrn\documents\adnanmernderes\12anne\anne.h
+	<string>
+	<iostream>
+
+1454243774 source:c:\users\mmtrn\documents\adnanmernderes\12anne\anne.cpp
+	"anne.h"
+
+1454236084 source:c:\users\mmtrn\documents\adnanmernderes\12anne\baba.cpp
+	"baba.h"
+
+1454235518 c:\users\mmtrn\documents\adnanmernderes\12anne\baba.h
+	<iostream>
+	<string>
+
+1454243122 source:c:\users\mmtrn\documents\adnanmernderes\12anne\cocuk.cpp
+	"cocuk.h"
+
+1454243105 c:\users\mmtrn\documents\adnanmernderes\12anne\cocuk.h
+	"anne.h"
+	"baba.h"
+

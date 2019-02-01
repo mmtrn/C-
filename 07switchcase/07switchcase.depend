@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1454163682 source:c:\users\mmtrn\documents\adnanmernderes\07switchcase\main.cpp
+	<iostream>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+

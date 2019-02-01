@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d7a2caa1011346188c04232adb795df7" Name="Diagram1" ZoomLevel="95" >
+        <EntityTypeShape EntityType="Model1.AnaStok" Width="1.5" PointX="4.375" PointY="0.5" />
+        <EntityTypeShape EntityType="Model1.AraStok1" Width="1.5" PointX="0.75" PointY="3.875" />
+        <EntityTypeShape EntityType="Model1.AraStok2" Width="1.5" PointX="2.75" PointY="3.875" />
+        <EntityTypeShape EntityType="Model1.AraStok3" Width="1.5" PointX="6" PointY="3.875" />
+        <EntityTypeShape EntityType="Model1.AraStok4" Width="1.5" PointX="8" PointY="3.875" />
+        <EntityTypeShape EntityType="Model1.hat1" Width="1.5" PointX="0.75" PointY="6.375" />
+        <EntityTypeShape EntityType="Model1.hat2" Width="1.5" PointX="2.75" PointY="6.375" />
+        <EntityTypeShape EntityType="Model1.hat3" Width="1.5" PointX="6" PointY="6.375" />
+        <EntityTypeShape EntityType="Model1.hat4" Width="1.5" PointX="8" PointY="6.375" />
+        <AssociationConnector Association="Model1.AraStok1AnaStok" />
+        <AssociationConnector Association="Model1.AraStok2AnaStok" />
+        <AssociationConnector Association="Model1.AraStok3AnaStok" />
+        <AssociationConnector Association="Model1.AraStok4AnaStok" />
+        <AssociationConnector Association="Model1.AraStok1hat1" />
+        <AssociationConnector Association="Model1.AraStok2hat2" />
+        <AssociationConnector Association="Model1.AraStok3hat3" />
+        <AssociationConnector Association="Model1.AraStok4hat4" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

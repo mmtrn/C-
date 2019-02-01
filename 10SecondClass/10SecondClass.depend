@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1454169405 source:c:\users\mmtrn\documents\adnanmernderes\10secondclass\main.cpp
+	<iostream>
+	"Saat.h"
+
+1454168746 source:c:\users\mmtrn\documents\adnanmernderes\10secondclass\src\saat.cpp
+	"Saat.h"
+	<iostream>
+
+1454168594 c:\users\mmtrn\documents\adnanmernderes\10secondclass\include\saat.h
+

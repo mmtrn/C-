@@ -1,0 +1,129 @@
+# depslib dependency file v1.0
+1454407503 source:c:\users\simge\documents\ab\ozkontra\main.cpp
+	<iostream>
+	"termcolor.hpp"
+	"kaya.h"
+	<time.h>
+	"hero.h"
+	<conio.h>
+	"ates.h"
+	<vector>
+	"dusman.h"
+
+1454253632 c:\users\simge\documents\ab\ozkontra\termcolor.hpp
+	<unistd.h>
+	<io.h>
+	<windows.h>
+	<iostream>
+	<cstdio>
+
+1454334703 source:c:\users\simge\documents\ab\ozkontra\src\kaya.cpp
+	"kaya.h"
+
+1454253210 c:\users\simge\documents\ab\ozkontra\include\kaya.h
+	<varlik.h>
+
+1454318377 c:\users\simge\documents\ab\ozkontra\include\varlik.h
+	<iostream>
+	"termcolor.hpp"
+
+1454254366 source:c:\users\simge\documents\ab\ozkontra\src\varlik.cpp
+	"varlik.h"
+	"termcolor2.hpp"
+
+1454255490 c:\users\simge\documents\ab\ozkontra\include\termcolor.hpp
+	<unistd.h>
+	<io.h>
+	<windows.h>
+	<iostream>
+	<cstdio>
+
+1454254387 c:\users\simge\documents\ab\ozkontra\include\termcolor3.hpp
+	<unistd.h>
+	<io.h>
+	<windows.h>
+	<iostream>
+	<cstdio>
+
+1454254387 c:\users\simge\documents\ab\ozkontra\include\termcolor2.hpp
+	<unistd.h>
+	<io.h>
+	<windows.h>
+	<iostream>
+	<cstdio>
+
+1454334325 c:\users\simge\documents\ab\ozkontra\hero.h
+	<varlik.h>
+
+1454334337 source:c:\users\simge\documents\ab\ozkontra\hero.cpp
+	"hero.h"
+
+1454338849 source:c:\users\simge\documents\ab\ozkontra\ates.cpp
+	"ates.h"
+
+1454337308 c:\users\simge\documents\ab\ozkontra\ates.h
+	"varlik.h"
+
+1454406128 source:c:\users\simge\documents\ab\ozkontra\dusman.cpp
+	"dusman.h"
+
+1454403412 c:\users\simge\documents\ab\ozkontra\dusman.h
+	"varlik.h"
+
+1454338849 source:c:\users\mmtrn\documents\adnanmernderes\ozkontra(full)\ates.cpp
+	"ates.h"
+
+1454337308 c:\users\mmtrn\documents\adnanmernderes\ozkontra(full)\ates.h
+	"varlik.h"
+
+1454318377 c:\users\mmtrn\documents\adnanmernderes\ozkontra(full)\include\varlik.h
+	<iostream>
+	"termcolor.hpp"
+
+1454255490 c:\users\mmtrn\documents\adnanmernderes\ozkontra(full)\include\termcolor.hpp
+	<unistd.h>
+	<io.h>
+	<windows.h>
+	<iostream>
+	<cstdio>
+
+1454408773 source:c:\users\mmtrn\documents\adnanmernderes\ozkontra(full)\dusman.cpp
+	"dusman.h"
+
+1454403412 c:\users\mmtrn\documents\adnanmernderes\ozkontra(full)\dusman.h
+	"varlik.h"
+
+1454334337 source:c:\users\mmtrn\documents\adnanmernderes\ozkontra(full)\hero.cpp
+	"hero.h"
+
+1454334325 c:\users\mmtrn\documents\adnanmernderes\ozkontra(full)\hero.h
+	<varlik.h>
+
+1454408286 source:c:\users\mmtrn\documents\adnanmernderes\ozkontra(full)\main.cpp
+	<iostream>
+	"termcolor.hpp"
+	"kaya.h"
+	<time.h>
+	"hero.h"
+	<conio.h>
+	"ates.h"
+	<vector>
+	"dusman.h"
+
+1454253210 c:\users\mmtrn\documents\adnanmernderes\ozkontra(full)\include\kaya.h
+	<varlik.h>
+
+1454334703 source:c:\users\mmtrn\documents\adnanmernderes\ozkontra(full)\src\kaya.cpp
+	"kaya.h"
+
+1454254366 source:c:\users\mmtrn\documents\adnanmernderes\ozkontra(full)\src\varlik.cpp
+	"varlik.h"
+	"termcolor2.hpp"
+
+1454254387 c:\users\mmtrn\documents\adnanmernderes\ozkontra(full)\include\termcolor2.hpp
+	<unistd.h>
+	<io.h>
+	<windows.h>
+	<iostream>
+	<cstdio>
+

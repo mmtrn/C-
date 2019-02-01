@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="AnaStokSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.AnaStok)">
+        <MappingFragment StoreEntitySet="AnaStokSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AraStok1Id" ColumnName="AraStok1Id" />
+          <ScalarProperty Name="AraStok2Id" ColumnName="AraStok2Id" />
+          <ScalarProperty Name="AraStok3Id" ColumnName="AraStok3Id" />
+          <ScalarProperty Name="AraStok4Id" ColumnName="AraStok4Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AraStok1Set">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.AraStok1)">
+        <MappingFragment StoreEntitySet="AraStok1Set">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="kapasite1" ColumnName="kapasite1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AraStok2Set">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.AraStok2)">
+        <MappingFragment StoreEntitySet="AraStok2Set">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="kapasite2" ColumnName="kapasite2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AraStok3Set">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.AraStok3)">
+        <MappingFragment StoreEntitySet="AraStok3Set">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="kapasite3" ColumnName="kapasite3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AraStok4Set">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.AraStok4)">
+        <MappingFragment StoreEntitySet="AraStok4Set">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="kapasite4" ColumnName="kapasite4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hat1Set">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.hat1)">
+        <MappingFragment StoreEntitySet="hat1Set">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AraStok1Id" ColumnName="AraStok1Id" />
+          <ScalarProperty Name="A" ColumnName="A" />
+          <ScalarProperty Name="B" ColumnName="B" />
+          <ScalarProperty Name="C" ColumnName="C" />
+          <ScalarProperty Name="D" ColumnName="D" />
+          <ScalarProperty Name="hiz1" ColumnName="hiz1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hat2Set">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.hat2)">
+        <MappingFragment StoreEntitySet="hat2Set">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AraStok2Id" ColumnName="AraStok2Id" />
+          <ScalarProperty Name="A" ColumnName="A" />
+          <ScalarProperty Name="B" ColumnName="B" />
+          <ScalarProperty Name="hiz2" ColumnName="hiz2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hat3Set">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.hat3)">
+        <MappingFragment StoreEntitySet="hat3Set">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AraStok3Id" ColumnName="AraStok3Id" />
+          <ScalarProperty Name="C" ColumnName="C" />
+          <ScalarProperty Name="D" ColumnName="D" />
+          <ScalarProperty Name="hiz3" ColumnName="hiz3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hat4Set">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.hat4)">
+        <MappingFragment StoreEntitySet="hat4Set">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AraStok4Id" ColumnName="AraStok4Id" />
+          <ScalarProperty Name="B" ColumnName="B" />
+          <ScalarProperty Name="C" ColumnName="C" />
+          <ScalarProperty Name="D" ColumnName="D" />
+          <ScalarProperty Name="hiz4" ColumnName="hiz4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

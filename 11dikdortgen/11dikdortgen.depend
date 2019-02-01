@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1454229871 source:c:\users\mmtrn\documents\adnanmernderes\11dikdortgen\dikdortgen.cpp
+	"Dikdortgen.h"
+	<iostream>
+
+1454231066 c:\users\mmtrn\documents\adnanmernderes\11dikdortgen\dikdortgen.h
+	<iostream>
+
+1454231310 source:c:\users\mmtrn\documents\adnanmernderes\11dikdortgen\main.cpp
+	<iostream>
+	"Dikdortgen.h"
+	"kare.h"
+
+1454231336 c:\users\mmtrn\documents\adnanmernderes\11dikdortgen\kare.h
+	"Dikdortgen.h"
+
+1454232950 source:c:\users\mmtrn\documents\adnanmernderes\11dikdortgen\kare.cpp
+	"kare.h"
+	<iostream>
+

@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1454403946 source:c:\users\mmtrn\documents\adnanmernderes\ozkontra\main.cpp
+	<iostream>
+	"termcolor.hpp"
+	"kaya.h"
+	"hero.h"
+	<conio.h>
+	"ates.h"
+	<vector>
+	"dusman.h"
+
+1454255363 c:\users\mmtrn\documents\adnanmernderes\ozkontra\termcolor.hpp
+	<unistd.h>
+	<io.h>
+	<windows.h>
+	<iostream>
+	<cstdio>
+
+1454401061 source:c:\users\mmtrn\documents\adnanmernderes\ozkontra\kaya.cpp
+	"kaya.h"
+
+1454253192 c:\users\mmtrn\documents\adnanmernderes\ozkontra\kaya.h
+	"varlik.h"
+
+1454313126 c:\users\mmtrn\documents\adnanmernderes\ozkontra\varlik.h
+	<iostream>
+	"termcolor.hpp"
+
+1454254704 source:c:\users\mmtrn\documents\adnanmernderes\ozkontra\varlik.cpp
+	"varlik.h"
+
+1454401021 source:c:\users\mmtrn\documents\adnanmernderes\ozkontra\hero.cpp
+	"hero.h"
+
+1454318012 c:\users\mmtrn\documents\adnanmernderes\ozkontra\hero.h
+	"varlik.h"
+
+1454401099 source:c:\users\mmtrn\documents\adnanmernderes\ozkontra\ates.cpp
+	"ates.h"
+
+1454336825 c:\users\mmtrn\documents\adnanmernderes\ozkontra\ates.h
+	"varlik.h"
+
+1454403806 source:c:\users\mmtrn\documents\adnanmernderes\ozkontra\dusman.cpp
+	"dusman.h"
+	"varlik.h"
+
+1454403609 c:\users\mmtrn\documents\adnanmernderes\ozkontra\dusman.h
+	"varlik.h"
+

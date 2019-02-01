@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="AnaStokSet" EntityType="Model1.Store.AnaStokSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AraStok1Set" EntityType="Model1.Store.AraStok1Set" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AraStok2Set" EntityType="Model1.Store.AraStok2Set" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AraStok3Set" EntityType="Model1.Store.AraStok3Set" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AraStok4Set" EntityType="Model1.Store.AraStok4Set" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="hat1Set" EntityType="Model1.Store.hat1Set" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="hat2Set" EntityType="Model1.Store.hat2Set" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="hat3Set" EntityType="Model1.Store.hat3Set" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="hat4Set" EntityType="Model1.Store.hat4Set" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="AraStok1AnaStok" Association="Model1.Store.AraStok1AnaStok">
+      <End Role="AraStok1" EntitySet="AraStok1Set" />
+      <End Role="AnaStok" EntitySet="AnaStokSet" />
+    </AssociationSet>
+    <AssociationSet Name="AraStok2AnaStok" Association="Model1.Store.AraStok2AnaStok">
+      <End Role="AraStok2" EntitySet="AraStok2Set" />
+      <End Role="AnaStok" EntitySet="AnaStokSet" />
+    </AssociationSet>
+    <AssociationSet Name="AraStok3AnaStok" Association="Model1.Store.AraStok3AnaStok">
+      <End Role="AraStok3" EntitySet="AraStok3Set" />
+      <End Role="AnaStok" EntitySet="AnaStokSet" />
+    </AssociationSet>
+    <AssociationSet Name="AraStok4AnaStok" Association="Model1.Store.AraStok4AnaStok">
+      <End Role="AraStok4" EntitySet="AraStok4Set" />
+      <End Role="AnaStok" EntitySet="AnaStokSet" />
+    </AssociationSet>
+    <AssociationSet Name="AraStok1hat1" Association="Model1.Store.AraStok1hat1">
+      <End Role="AraStok1" EntitySet="AraStok1Set" />
+      <End Role="hat1" EntitySet="hat1Set" />
+    </AssociationSet>
+    <AssociationSet Name="AraStok2hat2" Association="Model1.Store.AraStok2hat2">
+      <End Role="AraStok2" EntitySet="AraStok2Set" />
+      <End Role="hat2" EntitySet="hat2Set" />
+    </AssociationSet>
+    <AssociationSet Name="AraStok3hat3" Association="Model1.Store.AraStok3hat3">
+      <End Role="AraStok3" EntitySet="AraStok3Set" />
+      <End Role="hat3" EntitySet="hat3Set" />
+    </AssociationSet>
+    <AssociationSet Name="AraStok4hat4" Association="Model1.Store.AraStok4hat4">
+      <End Role="AraStok4" EntitySet="AraStok4Set" />
+      <End Role="hat4" EntitySet="hat4Set" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AnaStokSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AraStok1Id" Type="int" Nullable="false" />
+    <Property Name="AraStok2Id" Type="int" Nullable="false" />
+    <Property Name="AraStok3Id" Type="int" Nullable="false" />
+    <Property Name="AraStok4Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AraStok1Set">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kapasite1" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AraStok2Set">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kapasite2" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AraStok3Set">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kapasite3" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AraStok4Set">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kapasite4" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="hat1Set">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AraStok1Id" Type="int" Nullable="false" />
+    <Property Name="A" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="B" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="C" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="D" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="hiz1" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="hat2Set">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AraStok2Id" Type="int" Nullable="false" />
+    <Property Name="A" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="B" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="hiz2" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="hat3Set">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AraStok3Id" Type="int" Nullable="false" />
+    <Property Name="C" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="D" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="hiz3" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="hat4Set">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AraStok4Id" Type="int" Nullable="false" />
+    <Property Name="B" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="C" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="D" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="hiz4" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="AraStok1AnaStok">
+    <End Role="AraStok1" Type="Model1.Store.AraStok1Set" Multiplicity="1" />
+    <End Role="AnaStok" Type="Model1.Store.AnaStokSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AraStok1">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AnaStok">
+        <PropertyRef Name="AraStok1Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AraStok2AnaStok">
+    <End Role="AraStok2" Type="Model1.Store.AraStok2Set" Multiplicity="1" />
+    <End Role="AnaStok" Type="Model1.Store.AnaStokSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AraStok2">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AnaStok">
+        <PropertyRef Name="AraStok2Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AraStok3AnaStok">
+    <End Role="AraStok3" Type="Model1.Store.AraStok3Set" Multiplicity="1" />
+    <End Role="AnaStok" Type="Model1.Store.AnaStokSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AraStok3">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AnaStok">
+        <PropertyRef Name="AraStok3Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AraStok4AnaStok">
+    <End Role="AraStok4" Type="Model1.Store.AraStok4Set" Multiplicity="1" />
+    <End Role="AnaStok" Type="Model1.Store.AnaStokSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AraStok4">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AnaStok">
+        <PropertyRef Name="AraStok4Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AraStok1hat1">
+    <End Role="AraStok1" Type="Model1.Store.AraStok1Set" Multiplicity="1" />
+    <End Role="hat1" Type="Model1.Store.hat1Set" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AraStok1">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="hat1">
+        <PropertyRef Name="AraStok1Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AraStok2hat2">
+    <End Role="AraStok2" Type="Model1.Store.AraStok2Set" Multiplicity="1" />
+    <End Role="hat2" Type="Model1.Store.hat2Set" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AraStok2">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="hat2">
+        <PropertyRef Name="AraStok2Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AraStok3hat3">
+    <End Role="AraStok3" Type="Model1.Store.AraStok3Set" Multiplicity="1" />
+    <End Role="hat3" Type="Model1.Store.hat3Set" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AraStok3">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="hat3">
+        <PropertyRef Name="AraStok3Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AraStok4hat4">
+    <End Role="AraStok4" Type="Model1.Store.AraStok4Set" Multiplicity="1" />
+    <End Role="hat4" Type="Model1.Store.hat4Set" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AraStok4">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="hat4">
+        <PropertyRef Name="AraStok4Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1454418614 source:c:\users\mmtrn\documents\adnanmernderes\oznfs\main.cpp
+	<iostream>
+	"termcolor.hpp"
+
+1454255490 c:\users\mmtrn\documents\adnanmernderes\oznfs\termcolor.hpp
+	<unistd.h>
+	<io.h>
+	<windows.h>
+	<iostream>
+	<cstdio>
+
